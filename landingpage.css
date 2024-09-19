@@ -1,0 +1,219 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #ffff;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.card-container{
+    
+}
+.content-coontaine{
+    /* width: 1200px;
+    margin: 0 auto; */
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+#access{
+    color: #ffff;
+    text-decoration: underline #44FFA1;
+}
+#access:hover{
+    color: #44FFA1;
+    text-decoration: underline #44FFA1;
+}
+.header{
+    background-color: #24053E;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 1440px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+
+
+
+}
+.tailored{
+    text-decoration: underline #44FFA1;
+}
+.header h1{
+    font-size: 40px;
+    max-width: 300px;
+    text-align: center;
+    margin: 50px auto;
+
+}
+.pattern-1{
+    top: 20%;
+    left: -120px;
+    position: absolute;
+
+}
+.pattern-2{
+    position: absolute;
+    top: 50%;
+    right: -50px;
+
+}
+.center-header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.center-header h1{
+    color: #ffff;
+}
+button{
+    border: solid 2px  #44FFA1;
+    color: #24053E;
+    padding: 8px 14px;
+    background-color:#44FFA1;
+}
+    
+button:hover{
+    border: solid 2px  #44FFA1;
+    color: #44FFA1;
+    padding: 8px 14px;
+    background-color:#24053E;
+}
+.patterns-images{
+    display: flex;
+    justify-content: space-between;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero img{
+    max-width:500px;
+}
+.hero{
+    position: absolute;
+    top: 65%;
+    left: 35%;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#584D62;
+    justify-content: space-around;
+    margin-top: 200px;
+    
+}
+.middle p{
+    max-width: 300px;
+}
+.one{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.two{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.three{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.round{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border:solid #584D62;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #24053E;
+    max-width: 550px;
+    height: 320px;
+    padding: 50px;
+    position: absolute;
+    top: 210%;
+    left: 42%;
+    
+    
+}
+.card button{
+    padding: 8px 12px;
+    max-width: 150px;
+}
+.middle-section-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+    margin-right: 380px;
+
+}
+.card h1{
+    color: #ffff;
+}
+.card p{
+    color: #ffff;
+
+}
+p{
+    max-width: 602px;
+}
+.founder img{
+    max-width: 260px;
+    top: 50px;
+    position: relative;
+}
+.pattern3{
+    position: absolute;
+    top: 245%;
+    left: 75%;
+}
+.pattern3 img{
+    width: 173px;
+    height: 137px;
+}
+.workit{
+    margin-top: 150px;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    align-items: center;
+    padding: 12px;
+    flex-direction: column;
+}
+.social-media{
+
+    margin-top: 15px;
+
+}
+.social-media img{
+    margin-left: 20px;
+}
