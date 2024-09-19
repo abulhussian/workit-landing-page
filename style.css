@@ -13,13 +13,6 @@ body{
     margin: 0 auto;
 }
 
-.card-container{
-    
-}
-.content-coontaine{
-    /* width: 1200px;
-    margin: 0 auto; */
-}
 .top{
     display: flex;
     justify-content: space-between;
